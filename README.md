@@ -1,11 +1,10 @@
-## App Service Linux Python
+## App Service Linux Java
 
 ### Prerequisites
 
 The following prerequisites are required to use this application. Please ensure that you have them all installed locally.
 
 - [Azure Developer CLI](https://aka.ms/azd-install)
-- [Python 3.8+](https://www.python.org/downloads/)
 
 ### Quick start
 
@@ -16,7 +15,7 @@ This quickstart will show you how to authenticate on Azure, initialize using a t
 ```bash
 azd auth login
 
-azd init --template calvinonazure/app-service-linux-python
+azd init --template calvinonazure/app-service-linux-java
 
 azd up
 ```

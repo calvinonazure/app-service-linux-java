@@ -1,8 +1,8 @@
-name: app-service-linux-node
+name: app-service-linux-java
 metadata:
-  template: app-service-linux-node@0.1
+  template: app-service-linux-java@0.1
 services:
   web:
     project: ./src
-    language: py
+    language: java
     host: appservice
